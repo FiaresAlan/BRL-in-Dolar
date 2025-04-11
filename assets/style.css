@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  header img {
+    width: 120px;
+    margin-bottom: 60px;
+  }
+  
+  main section {
+    background-color: #e9f9d3; /* Verde clarinho */
+    padding: 15px;
+    margin: 10px 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .cur {
+    font-weight: bold;
+    font-size: 20px;
+    color: #aaa;
+    margin-right: 10px;
+    width: 50px;
+    text-align: right;
+  }
+  
+  input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: #333;
+    outline: none;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  button {
+   border: 2px solid black;
+   margin: 20px 40px;
+   padding: 10px 20px;
+
+   border-radius: 200px;
+   background-color: rgb(154, 255, 184);
+   color: rgb(75, 75, 75);
+   font-weight: 700;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
